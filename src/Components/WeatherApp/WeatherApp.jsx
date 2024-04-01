@@ -12,7 +12,7 @@ import humidity_icon from '../Assets/humidity.png'
 
 const WeatherApp = () => {
 
-    let api_key = "19e390e2b10393d8af98fbb7844bf755";
+    let api_key = ""; // Enter your OpenweatherMap API key within the quotes
 
     const [weatherData, setWeatherData] = useState(null);
 
